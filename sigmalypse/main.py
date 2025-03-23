@@ -285,7 +285,7 @@ class MetricsLab:
         self.default_u_objects = {
             "L": {  # Longitud (en metros)
                 "vernier": 5e-5,  # 0.00005 m
-                "flexometro": 0.0005,  # 0.0005 m
+                "flexometro": 0.005,  # 0.005 m
                 "micrometro": 1e-5  # 0.00001 m
             },
             "M": {  # Masa (en kilogramos)
@@ -294,7 +294,7 @@ class MetricsLab:
                 "balanza granataria": 0.0005  # 0.0005 kg (0.5 g)
             },
             "T": {  # Tiempo (en segundos)
-                "cronometro": 0.001,  # 0.001 s
+                "cronometro": 0.01,  # 0.001 s
                 "fotocompuerta": 0.0001  # 0.0001 s
             }
         }
